@@ -23,49 +23,49 @@ export const MUSIC_DATA: RootRow[] = [
   {
     root: 'Eb',
     intervals: {
-      'M6': 'C', 'Aug2': 'F#', 'm7': 'Db', 'P4': 'Ab', 'Aug4': 'A', 'm2': 'Fb/E', 'm6': 'Cb/B',
-      'P5': 'Bb', 'm3': 'Gb', 'dim5': 'Bbb/A', 'M2': 'F', 'Aug5': 'B', 'M7': 'D', 'M3': 'G'
+      'M6': 'C', 'Aug2': 'F#', 'm7': 'Db', 'P4': 'Ab', 'Aug4': 'A', 'm2': 'Fb (E)', 'm6': 'Cb (B)',
+      'P5': 'Bb', 'm3': 'Gb', 'dim5': 'Bbb (A)', 'M2': 'F', 'Aug5': 'B', 'M7': 'D', 'M3': 'G'
     }
   },
   {
     root: 'B',
     intervals: {
-      'M6': 'G#', 'Aug2': 'C##/D', 'm7': 'A', 'P4': 'E', 'Aug4': 'E#/F', 'm2': 'C', 'm6': 'G',
-      'P5': 'F#', 'm3': 'D', 'dim5': 'F', 'M2': 'C#', 'Aug5': 'F##/G', 'M7': 'A#', 'M3': 'D#'
+      'M6': 'G#', 'Aug2': 'C## (D)', 'm7': 'A', 'P4': 'E', 'Aug4': 'E# (F)', 'm2': 'C', 'm6': 'G',
+      'P5': 'F#', 'm3': 'D', 'dim5': 'F', 'M2': 'C#', 'Aug5': 'F## (G)', 'M7': 'A#', 'M3': 'D#'
     }
   },
   {
     root: 'F',
     intervals: {
       'M6': 'D', 'Aug2': 'G#', 'm7': 'Eb', 'P4': 'Bb', 'Aug4': 'B', 'm2': 'Gb', 'm6': 'Db',
-      'P5': 'C', 'm3': 'Ab', 'dim5': 'Cb/B', 'M2': 'G', 'Aug5': 'C#', 'M7': 'E', 'M3': 'A'
+      'P5': 'C', 'm3': 'Ab', 'dim5': 'Cb (B)', 'M2': 'G', 'Aug5': 'C#', 'M7': 'E', 'M3': 'A'
     }
   },
   {
     root: 'Db',
     intervals: {
-      'M6': 'Bb', 'Aug2': 'E', 'm7': 'Cb/B', 'P4': 'Gb', 'Aug4': 'G', 'm2': 'Ebb/D', 'm6': 'Bbb/A',
-      'P5': 'Ab', 'm3': 'Fb/E', 'dim5': 'Abb/G', 'M2': 'Eb', 'Aug5': 'A', 'M7': 'C', 'M3': 'F'
+      'M6': 'Bb', 'Aug2': 'E', 'm7': 'Cb (B)', 'P4': 'Gb', 'Aug4': 'G', 'm2': 'Ebb (D)', 'm6': 'Bbb (A)',
+      'P5': 'Ab', 'm3': 'Fb (E)', 'dim5': 'Abb (G)', 'M2': 'Eb', 'Aug5': 'A', 'M7': 'C', 'M3': 'F'
     }
   },
   {
     root: 'E',
     intervals: {
-      'M6': 'C#', 'Aug2': 'F##/G', 'm7': 'D', 'P4': 'A', 'Aug4': 'A#', 'm2': 'F', 'm6': 'C',
-      'P5': 'B', 'm3': 'G', 'dim5': 'Bb', 'M2': 'F#', 'Aug5': 'B#/C', 'M7': 'D#', 'M3': 'G#'
+      'M6': 'C#', 'Aug2': 'F## (G)', 'm7': 'D', 'P4': 'A', 'Aug4': 'A#', 'm2': 'F', 'm6': 'C',
+      'P5': 'B', 'm3': 'G', 'dim5': 'Bb', 'M2': 'F#', 'Aug5': 'B# (C)', 'M7': 'D#', 'M3': 'G#'
     }
   },
   {
     root: 'Ab',
     intervals: {
-      'M6': 'F', 'Aug2': 'B', 'm7': 'Gb', 'P4': 'Db', 'Aug4': 'D', 'm2': 'Bbb/A', 'm6': 'Fb/E',
-      'P5': 'Eb', 'm3': 'Cb/B', 'dim5': 'Ebb/D', 'M2': 'Bb', 'Aug5': 'E', 'M7': 'G', 'M3': 'C'
+      'M6': 'F', 'Aug2': 'B', 'm7': 'Gb', 'P4': 'Db', 'Aug4': 'D', 'm2': 'Bbb (A)', 'm6': 'Fb (E)',
+      'P5': 'Eb', 'm3': 'Cb (B)', 'dim5': 'Ebb (D)', 'M2': 'Bb', 'Aug5': 'E', 'M7': 'G', 'M3': 'C'
     }
   },
   {
     root: 'D',
     intervals: {
-      'M6': 'B', 'Aug2': 'E#/F', 'm7': 'C', 'P4': 'G', 'Aug4': 'G#', 'm2': 'Eb', 'm6': 'Bb',
+      'M6': 'B', 'Aug2': 'E# (F)', 'm7': 'C', 'P4': 'G', 'Aug4': 'G#', 'm2': 'Eb', 'm6': 'Bb',
       'P5': 'A', 'm3': 'F', 'dim5': 'Ab', 'M2': 'E', 'Aug5': 'A#', 'M7': 'C#', 'M3': 'F#'
     }
   },
@@ -79,8 +79,8 @@ export const MUSIC_DATA: RootRow[] = [
   {
     root: 'Gb',
     intervals: {
-      'M6': 'Eb', 'Aug2': 'A', 'm7': 'Fb/E', 'P4': 'Cb/B', 'Aug4': 'C', 'm2': 'Abb/G', 'm6': 'Ebb/D',
-      'P5': 'Db', 'm3': 'Bbb/A', 'dim5': 'Dbb/C', 'M2': 'Ab', 'Aug5': 'D', 'M7': 'F', 'M3': 'Bb'
+      'M6': 'Eb', 'Aug2': 'A', 'm7': 'Fb (E)', 'P4': 'Cb (B)', 'Aug4': 'C', 'm2': 'Abb (G)', 'm6': 'Ebb (D)',
+      'P5': 'Db', 'm3': 'Bbb (A)', 'dim5': 'Dbb (C)', 'M2': 'Ab', 'Aug5': 'D', 'M7': 'F', 'M3': 'Bb'
     }
   },
   {
@@ -93,50 +93,50 @@ export const MUSIC_DATA: RootRow[] = [
   {
     root: 'A',
     intervals: {
-      'M6': 'F#', 'Aug2': 'B#/C', 'm7': 'G', 'P4': 'D', 'Aug4': 'D#', 'm2': 'Bb', 'm6': 'F',
-      'P5': 'E', 'm3': 'C', 'dim5': 'Eb', 'M2': 'B', 'Aug5': 'E#/F', 'M7': 'G#', 'M3': 'C#'
+      'M6': 'F#', 'Aug2': 'B# (C)', 'm7': 'G', 'P4': 'D', 'Aug4': 'D#', 'm2': 'Bb', 'm6': 'F',
+      'P5': 'E', 'm3': 'C', 'dim5': 'Eb', 'M2': 'B', 'Aug5': 'E# (F)', 'M7': 'G#', 'M3': 'C#'
     }
   },
   {
     root: 'Bb',
     intervals: {
-      'M6': 'G', 'Aug2': 'C#', 'm7': 'Ab', 'P4': 'Eb', 'Aug4': 'E', 'm2': 'Cb/B', 'm6': 'Gb',
-      'P5': 'F', 'm3': 'Db', 'dim5': 'Fb/E', 'M2': 'C', 'Aug5': 'F#', 'M7': 'A', 'M3': 'D'
+      'M6': 'G', 'Aug2': 'C#', 'm7': 'Ab', 'P4': 'Eb', 'Aug4': 'E', 'm2': 'Cb (B)', 'm6': 'Gb',
+      'P5': 'F', 'm3': 'Db', 'dim5': 'Fb (E)', 'M2': 'C', 'Aug5': 'F#', 'M7': 'A', 'M3': 'D'
     }
   },
   {
     root: 'C#',
     intervals: {
-      'M6': 'A#', 'Aug2': 'D##/E', 'm7': 'B', 'P4': 'F#', 'Aug4': 'F##/G', 'm2': 'D', 'm6': 'A',
-      'P5': 'G#', 'm3': 'E', 'dim5': 'G', 'M2': 'D#', 'Aug5': 'G##/A', 'M7': 'B#/C', 'M3': 'E#/F'
+      'M6': 'A#', 'Aug2': 'D## (E)', 'm7': 'B', 'P4': 'F#', 'Aug4': 'F## (G)', 'm2': 'D', 'm6': 'A',
+      'P5': 'G#', 'm3': 'E', 'dim5': 'G', 'M2': 'D#', 'Aug5': 'G## (A)', 'M7': 'B# (C)', 'M3': 'E# (F)'
     }
   },
   {
     root: 'G#',
     intervals: {
-      'M6': 'E#/F', 'Aug2': 'A##/B', 'm7': 'F#', 'P4': 'C#', 'Aug4': 'C##/D', 'm2': 'A', 'm6': 'E',
-      'P5': 'D#', 'm3': 'B', 'dim5': 'D', 'M2': 'A#', 'Aug5': 'D##/E', 'M7': 'F##/G', 'M3': 'B#/C'
+      'M6': 'E# (F)', 'Aug2': 'A## (B)', 'm7': 'F#', 'P4': 'C#', 'Aug4': 'C## (D)', 'm2': 'A', 'm6': 'E',
+      'P5': 'D#', 'm3': 'B', 'dim5': 'D', 'M2': 'A#', 'Aug5': 'D## (E)', 'M7': 'F## (G)', 'M3': 'B# (C)'
     }
   },
   {
     root: 'D#',
     intervals: {
-      'M6': 'B#/C', 'Aug2': 'E##/F#', 'm7': 'C#', 'P4': 'G#', 'Aug4': 'G##/A', 'm2': 'E', 'm6': 'B',
-      'P5': 'A#', 'm3': 'F#', 'dim5': 'A', 'M2': 'E#/F', 'Aug5': 'A##/B', 'M7': 'C##/D', 'M3': 'F##/G'
+      'M6': 'B# (C)', 'Aug2': 'E## (F#)', 'm7': 'C#', 'P4': 'G#', 'Aug4': 'G## (A)', 'm2': 'E', 'm6': 'B',
+      'P5': 'A#', 'm3': 'F#', 'dim5': 'A', 'M2': 'E# (F)', 'Aug5': 'A## (B)', 'M7': 'C## (D)', 'M3': 'F## (G)'
     }
   },
   {
     root: 'F#',
     intervals: {
-      'M6': 'D#', 'Aug2': 'G##/A', 'm7': 'E', 'P4': 'B', 'Aug4': 'B#/C', 'm2': 'G', 'm6': 'D',
-      'P5': 'C#', 'm3': 'A', 'dim5': 'C', 'M2': 'G#', 'Aug5': 'C##/D', 'M7': 'E#/F', 'M3': 'A#'
+      'M6': 'D#', 'Aug2': 'G## (A)', 'm7': 'E', 'P4': 'B', 'Aug4': 'B# (C)', 'm2': 'G', 'm6': 'D',
+      'P5': 'C#', 'm3': 'A', 'dim5': 'C', 'M2': 'G#', 'Aug5': 'C## (D)', 'M7': 'E# (F)', 'M3': 'A#'
     }
   },
   {
     root: 'A#',
     intervals: {
-      'M6': 'F##/G', 'Aug2': 'B##/C#', 'm7': 'G#', 'P4': 'D#', 'Aug4': 'D##/E', 'm2': 'B', 'm6': 'F#',
-      'P5': 'E#/F', 'm3': 'C#', 'dim5': 'E', 'M2': 'B#/C', 'Aug5': 'E##/F#', 'M7': 'G##/A', 'M3': 'C##/D'
+      'M6': 'F## (G)', 'Aug2': 'B## (C#)', 'm7': 'G#', 'P4': 'D#', 'Aug4': 'D## (E)', 'm2': 'B', 'm6': 'F#',
+      'P5': 'E# (F)', 'm3': 'C#', 'dim5': 'E', 'M2': 'B# (C)', 'Aug5': 'E## (F#)', 'M7': 'G## (A)', 'M3': 'C## (D)'
     }
   }
 ];

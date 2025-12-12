@@ -69,7 +69,7 @@ const App: React.FC = () => {
             <div className="hidden sm:flex items-center gap-2">
               <h1 className="text-lg font-bold text-slate-800">Interval Trainer</h1>
               <div className="flex items-baseline gap-1.5">
-                <span className="text-xs font-medium text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded-md border border-slate-200">v1.0</span>
+                <span className="text-xs font-medium text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded-md border border-slate-200">v1.1</span>
                 <span className="text-[10px] text-slate-400 font-medium">by SSK</span>
               </div>
             </div>
@@ -154,7 +154,7 @@ const App: React.FC = () => {
             <div className="flex flex-col gap-2">
                 <div className="text-center px-4">
                     <p className="text-[10px] text-slate-300 leading-relaxed uppercase tracking-wide">
-                        Enharmonic equivalents (e.g., Fb/E) are treated as identical.
+                        Enharmonic equivalents (e.g., Fb (E)) are treated as identical.
                     </p>
                 </div>
 
